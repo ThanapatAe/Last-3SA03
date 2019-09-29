@@ -33,14 +33,19 @@ export default class WordCard extends Component {
         return(	       
 
             <div className="App">	
-                               
+               
+            <h3>WELLCOME TO GAME</h3>
+                
                 {  
                 Array.from(this.state.chars).map((c, i) => <CharacterCard value = {c} key = {i} 
                 attempt={this.state.attempt}
                 activationHandler = {this.activationHandler} />
+                
                 )
                 }
                <p>Round : {this.state.attempt}</p>
+               <p>Hint : Lab's name</p>
+                <h1><font color="blue">{this.state.completed? "ชนะเฉย !!" : ""}</font></h1>
                 </div>	           
             );	       
                
