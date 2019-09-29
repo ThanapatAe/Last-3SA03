@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background :url(https://wallpaper.campus-star.com/app/uploads/2017/11/wall-november10.jpg) ;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
 }
 
 .App-logo {
@@ -7,13 +11,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #222;
+  background-color: rgb(0, 0, 0);
+  height: 150px;
+  padding: 20px;
   color: white;
 }
 
@@ -27,9 +28,10 @@
   width: 3em;
   font-size: 2em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 8px rgb(255, 255, 255);
   margin: 1em;
   user-select: none;
- }
+}
 
  .activeCard {
   color: rgb(255, 255, 255);
